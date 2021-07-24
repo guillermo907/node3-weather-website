@@ -37,9 +37,13 @@
     background-position: 0% 50%;
   }
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
-  padding: 0 7rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
   height: 98vh;
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(
@@ -60,7 +64,7 @@ a {
 }
 h1.big {
   font-family: 'Poppins', sans-serif;
-  font-size: 5rem;
+  font-size: 4.55rem;
   margin: 0;
 }
 .header {
@@ -92,13 +96,15 @@ h1.big {
   margin-bottom: 40px;
 }
 button {
-  background-color: rgb(65, 65, 65);
+  background-color: rgba(65, 65, 65, 0.197);
+  border: 1px solid;
   color: white;
   outline: none;
   cursor: pointer;
 }
 input {
-  background-color: rgba(255, 255, 255, 0.697);
+  background-color: rgba(255, 255, 255, 0.497);
+  border: 1px solid white;
 }
 form > * {
   border-radius: 5px;
@@ -106,5 +112,8 @@ form > * {
   box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
 }
 .weather-result {
-  font-size: 2rem;
+  font-size: 1.2rem;
+}
+.result-tab {
+  margin-top: 20px;
 }
