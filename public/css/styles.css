@@ -45,6 +45,7 @@ body {
   flex-direction: column;
   padding: 2rem;
   height: 98vh;
+  max-width: 100%;
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(
     -85deg,

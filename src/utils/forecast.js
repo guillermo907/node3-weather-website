@@ -11,7 +11,7 @@ const forecast = (longitude, latitude, callback) => {
     } else {
       callback(
         undefined,
-        `${body.current.weather_descriptions[0]}, It is ${body.current.temperature} degrees outside and is ${body.current.humidity} humid!`
+        `${body.current.weather_descriptions[0]}, It is ${body.current.temperature} degrees outside and is ${body.current.humidity}% humid!`
       );
     }
   });
