@@ -4,8 +4,6 @@ const forecast = (longitude, latitude, callback) => {
   const url = `http://api.weatherstack.com/current?access_key=70a3ef78a34ac6826ce6f7e1046976e0&query=${latitude},${longitude}`;
 
   request({ url, json: true }, (error, { body }) => {
-    console.log('Datos: ', body);
-
     if (error) {
       callback(error, undefined);
     } else if (body.error) {

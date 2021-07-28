@@ -49,6 +49,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(
     -85deg,
+    #e73c7ef1,
     dodgerblue,
     rgba(80, 129, 166, 0.94),
     #e73c7ef1,
@@ -103,8 +104,12 @@ button {
   cursor: pointer;
 }
 input {
-  background-color: rgba(255, 255, 255, 0.497);
+  background-color: rgba(255, 255, 255, 0.028);
+  color: white;
   border: 1px solid white;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.299);
 }
 form > * {
   border-radius: 5px;
