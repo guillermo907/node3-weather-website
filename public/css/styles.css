@@ -49,15 +49,14 @@ body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(
     -85deg,
-    rgb(84, 140, 183),
+    dodgerblue,
+    rgba(80, 129, 166, 0.94),
     #e73c7ef1,
-    rgba(231, 99, 81, 0.89)
+    rgba(231, 91, 81, 0.89)
   );
   background-size: 400% 400%;
   height: 100vh;
   animation: bgMove 18s ease infinite;
-  position: relative;
-  z-index: 1;
   color: white;
 }
 a {
