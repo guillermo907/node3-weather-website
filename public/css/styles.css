@@ -51,7 +51,7 @@ body {
   background: linear-gradient(
     -85deg,
     #e73c7ef1,
-    dodgerblue,
+    rgba(30, 143, 255, 0.897),
     rgba(80, 129, 166, 0.94),
     #e73c7ef1,
     rgba(231, 91, 81, 0.94)
